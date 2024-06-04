@@ -1,5 +1,5 @@
-function d(n)
+function d(num)
 {
-    return n*2;
+    return num*2;
 }
 console.log(num(3));
