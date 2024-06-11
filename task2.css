@@ -1,0 +1,25 @@
+
+.dev{
+    
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border-top: 50px;
+    border-bottom: 10px;
+    image-resolution: 100px;
+    max-width: 50%;
+    max-height: 100%;   
+}
+.head{
+    text-align: center;
+    color: red;
+}
+.para{
+    margin-left:600px;
+    margin-right:600px;
+   text-align: center;
+   color: white;
+   
+}
+
