@@ -75,3 +75,32 @@ WHERE year % 2 = 0;
 ![alt text](<Screenshot (23).png>)
 
 //Task-11
+1.SELECT _,count(role) FROM employees where role like "Art%";
+2.SELECT _,count(role) FROM employees group by role;
+3.SELECT \*,sum(Years_employed) FROM employees where role like "eng%";
+![alt text](<Screenshot (24).png>)
+
+// Task-12
+
+1.SELECT \*,count(director) FROM movies group by director;
+2.SELECT director,sum(Domestic_sales+International_sales) as total FROM movies inner join boxoffice on movie_id=id group by director;
+![alt text](<Screenshot (25).png>)
+
+//Task-13
+
+1.![alt text](<Screenshot (26).png>)
+
+//Task-14
+
+1.![alt text](<Screenshot (27).png>)
+
+//Task-15
+
+1.![alt text](<Screenshot (28).png>)
+
+//Task-16 1.![alt text](<Screenshot (29).png>)
+
+//Task-17
+![alt text](<Screenshot (30).png>)
+
+//Task-18 1.![alt text](<Screenshot (31).png>)
